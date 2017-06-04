@@ -10,7 +10,7 @@ app/.idea/
 app/.git/
 app/idea/
 app/git/
-
+app/node_modules/
 app/!index.html
 
 app/scratch.xml

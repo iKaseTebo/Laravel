@@ -6,3 +6,7 @@ nginx -g "daemon off;";
 
 cd usr/share/nginx/html
 php composer install
+
+cd app
+npm install
+
