@@ -5,5 +5,12 @@ docker run -dit -p 80:80 -p 443:443
 -v D:\Repositories\Docker\laravel\php-conf\fpm\:/etc/php/7.1/fpm/
 ikasetebo/laravel:v1.00
 
+docker run -dit -p 80:80 -p 443:443
+-v D:\Repositories\Docker\laravel\shared:/shared/
+-v D:\Repositories\Docker\laravel\nginx-conf\:/etc/nginx/
+-v D:\Repositories\Docker\laravel\app:/usr/share/nginx/html
+-v D:\Repositories\Docker\laravel\php-conf\fpm\:/etc/php/7.1/fpm/
+ikasetebo/laravel:angular-1.00
+
 
 https://hub.docker.com/r/ikasetebo/laravel/

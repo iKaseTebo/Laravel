@@ -1,0 +1,5 @@
+172.17.0.1 - - [04/Jun/2017:15:33:50 +0000] "GET / HTTP/1.1" 200 416 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+172.17.0.1 - - [04/Jun/2017:15:33:50 +0000] "GET /js/controllers.js HTTP/1.1" 304 0 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+172.17.0.1 - - [04/Jun/2017:15:33:50 +0000] "GET /js/app.js HTTP/1.1" 304 0 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+172.17.0.1 - - [04/Jun/2017:15:33:51 +0000] "GET /templates/users/dashboard.html HTTP/1.1" 304 0 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+172.17.0.1 - - [04/Jun/2017:15:33:53 +0000] "GET /templates/users/login.html HTTP/1.1" 304 0 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
