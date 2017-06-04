@@ -8,11 +8,19 @@
 
 var myApp = angular.module('myApp', ['ngRoute', 'ngCookies']);
 
+myApp.config(['$interpolateProvider', function($interpolateProvider) {
+    $interpolateProvider.startSymbol('<<');
+    $interpolateProvider.endSymbol('>>');
+}]);
+
 myApp.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
     $routeProvider.when('/', {
-       templateUrl: 'templates/users/login.html',
-       controller: 'userController'
-    });
+       templateUrl: 'templates/users/dashboard.html',
+       controller: 'indexController'
+    }).when('/login', {
+        templateUrl: 'templates/users/login.html',
+        controller: 'userController'
+    }).otherwise('/');
 }]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to

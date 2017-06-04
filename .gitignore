@@ -1,6 +1,7 @@
 .git/
 .idea/
 nginx-conf/ssl/*
+shared/
 
 
 
