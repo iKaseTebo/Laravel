@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+if ( ! request()->ajax() ) {
+Route::get('/{any}', 'SpaController@index')->where('any', '.*');
+}
